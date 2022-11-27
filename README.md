@@ -13,3 +13,4 @@
 6. медиазапросы и адаптивная верстка
 
 ## Адрес проекта на GitHub Pages
+https://alexashka-2022.github.io/russian-travel/index.html
