@@ -1,0 +1,44 @@
+.place__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  /*max-width: 984px;*/
+  max-height: 660px;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__card {
+    max-width: 928px;
+    max-height: 640px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__card {
+    max-width: 720px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .place__card {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    min-width: 320px;
+    max-height: 1042px;
+    row-gap: 32px;
+    column-gap: 0;
+    grid-template-areas:
+    "title" 
+    "website"
+    "image"
+    "paragraph";
+  }
+}
