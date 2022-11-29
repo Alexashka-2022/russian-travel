@@ -1,4 +1,4 @@
-.place__main-text {
+.places__main-text {
   grid-area: paragraph;
   display: grid;
   justify-self: end;
@@ -8,22 +8,21 @@
 }
 
 @media screen and (max-width: 1024px){
-  .place__main-text {
+  .places__main-text {
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__main-text {
+  .places__main-text {
     max-width: 352px;
     row-gap: 25px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .place__main-text {
+  .places__main-text {
     max-width: 288px;
-    row-gap: 25px;
     justify-self: center;
   }
 }
