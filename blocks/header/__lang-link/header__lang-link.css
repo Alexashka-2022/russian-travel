@@ -2,6 +2,7 @@
   margin: 0;
   text-decoration: none;
   color: #FFFFFF;
+  transition: opacity 0.35s;
 }
 
 .header__lang-link:hover {
